@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+.QuoteCard {
+  margin: 0 auto;
+  width: 40%;
+  height: 70px;
+  background-color: transparent;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Open Sans", sans-serif;
+}
+.quote {
+  width: 100%;
+  height: 100%;
+  margin: auto 0;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+}
+.author {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  color: gray;
+  font-size: 12px;
+  text-align: justify;
+  text-align-last: right;
+  z-index: 10;
+}
+
+.ratingpercent {
+  font-family: "Poppins", sans-serif;
+}
+
+.content {
+  padding: 10px 10px;
+  display: inline-block;
+  z-index: 9;
+  font-size: 12px;
+}
+
+.updown {
+  font-size: 10px;
+  color: white;
+}
