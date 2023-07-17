@@ -31,6 +31,7 @@ export default function Home() {
               upvotesCount={quotes.upvotesCount}
               content={quotes.content}
               author={quotes.author}
+              givenVote={quotes.givenVote}
             />
           );
         })}
